@@ -42,6 +42,7 @@ public class ChallengeHelper {
 	 * exceptions, missing arguments, uninitialized objects
 	 * 
 	 * @param errCode
+	 *            : the number associated with the type of error
 	 */
 	public static void ReportError(int errCode) {
 		switch (errCode) {
